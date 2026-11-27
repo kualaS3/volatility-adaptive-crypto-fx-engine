@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and cache artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+
+# NOTE: research/data/ is intentionally NOT ignored. The Parquet files
+# are small for what they hold and committing them makes the analysis
+# reproducible without an API call.
